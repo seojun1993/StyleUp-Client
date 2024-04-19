@@ -39,7 +39,7 @@ function makeQRimg(targetImg, bg){
 
         let qrImage = canvas.toDataURL('image/png');
 
-        fetch('http://13.209.62.118:8080/uploads/qr', {
+        fetch('http://localhost/uploads/qr', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -51,7 +51,7 @@ function makeQRimg(targetImg, bg){
             .then(response => response.json())
             .then(data => {
                qrImgName = data.imgName;
-               let qrSrc = `http://13.209.62.118:8080/qrcode.html?=${qrImgName}`;
+               let qrSrc = `http://localhost/qrcode.html?=${qrImgName}`;
                fn_CustomQRImage(qrSrc) // 실서버용
 
                qrSrc = null;

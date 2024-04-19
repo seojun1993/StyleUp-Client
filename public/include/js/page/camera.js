@@ -114,7 +114,7 @@ function capture(params) {
         let imageData = canvas.toDataURL('image/png');
         let userParams = {'Bg' : `${params.Bg}.jpg`, 'Dress' : `${selectData}/${params.Dress}.png`,}
     
-        fetch('http://13.209.62.118:8080/uploads/face', {
+        fetch('http://localhost/uploads/face', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
