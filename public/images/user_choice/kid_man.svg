@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="543" height="543" viewBox="0 0 543 543">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="패스_6739" data-name="패스 6739" d="M271.5,0C421.445,0,543,121.5,543,271.37S421.445,542.74,271.5,542.74,0,421.243,0,271.37,121.555,0,271.5,0Z" fill="#b5a591"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="사각형_7056" data-name="사각형 7056" width="29.801" height="20.124" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="img_ar_gender_age_kid_m" transform="translate(-200 -710.859)">
+    <path id="패스_1381" data-name="패스 1381" d="M271.5,0C421.445,0,543,121.5,543,271.37S421.445,542.74,271.5,542.74,0,421.243,0,271.37,121.555,0,271.5,0Z" transform="translate(200 710.859)" fill="#5a8b97"/>
+    <rect id="사각형_7054" data-name="사각형 7054" width="173.306" height="153.026" rx="76.513" transform="translate(388.389 954.748)"/>
+    <rect id="사각형_7055" data-name="사각형 7055" width="173.306" height="160.4" rx="80" transform="translate(388.389 940.714)"/>
+    <path id="패스_1354" data-name="패스 1354" d="M272.716,135.462c0,17.331-1.77,34.252-10.38,47.718-12.513,19.574-36.479,31.684-59.993,31.684-24.252,0-46.37-10.2-59.276-31.684-7.375-12.272-11.1-31.23-11.1-47.718,0-43.852,31.507-79.4,70.373-79.4s70.373,35.55,70.373,79.4" transform="translate(272.721 913.612)" fill="#f7f7f7"/>
+    <path id="패스_1355" data-name="패스 1355" d="M169.724,51.142c-.037.1,4.806,39.672,20.948,49.98,17.5,11.175,49.923-5.393,58.6,1,31.549,23.23,25.716,21.813,35.991,30.683,0,0,10.483-56.179-18.6-76.4-11.283-7.845-26.059-31.855-41.9-35.952-23.688-6.119-48.266,12.307-55.047,30.681" transform="translate(262.363 931.24)"/>
+    <path id="패스_1356" data-name="패스 1356" d="M183.326,64.566A276.207,276.207,0,0,0,147.005,100.2c-9.615,11.783-13.557,12.069-25.314,24.718,0,0-.278-33.592,9.572-60.353,7.478-20.325,23.2-28.509,32.054-30.566" transform="translate(282.625 935.676)"/>
+    <rect id="사각형_459" data-name="사각형 459" width="308.387" height="350.44" transform="translate(320.706 903.163)" fill="none"/>
+    <ellipse id="타원_203" data-name="타원 203" cx="82.966" cy="18.509" rx="82.966" ry="18.509" transform="translate(388.656 1014.344)"/>
+    <rect id="사각형_7053" data-name="사각형 7053" width="70.06" height="53.467" transform="translate(440.069 1102.688)" fill="#f7f7f7"/>
+    <g id="마스크_그룹_867" data-name="마스크 그룹 867" transform="translate(200 711.119)" clip-path="url(#clip-path)">
+      <path id="패스_6738" data-name="패스 6738" d="M118.326,0c61.4,0,108.551,53.284,119.889,115.593l13.763,96.155H-9.521l8.091-96.155C5.048,52.475,56.924,0,118.326,0Z" transform="translate(156.573 414.52)" fill="#89bbed"/>
+    </g>
+    <ellipse id="타원_204" data-name="타원 204" cx="35.03" cy="10.14" rx="35.03" ry="10.14" transform="translate(440.069 1116.313)" fill="#f7f7f7"/>
+    <g id="그룹_21534" data-name="그룹 21534" transform="translate(460.213 933.4)">
+      <g id="그룹_21533" data-name="그룹 21533" clip-path="url(#clip-path-2)">
+        <path id="패스_6741" data-name="패스 6741" d="M14.9,20.653S.767,7.9,0,2.681c0,0,9.37,3.072,14.9,17.972" transform="translate(0 -0.531)"/>
+        <path id="패스_6742" data-name="패스 6742" d="M18.574,17.972S32.706,5.223,33.475,0c0,0-9.37,3.072-14.9,17.972" transform="translate(-7.361)"/>
+      </g>
+    </g>
+    <text id="Kid" transform="translate(426.613 1215.479)" font-size="56" font-family="Pretendard-Light, Pretendard" font-weight="300"><tspan x="0" y="0">남아</tspan></text>
+  </g>
+</svg>

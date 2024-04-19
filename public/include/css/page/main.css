@@ -1,0 +1,11 @@
+.main_wrap {padding: 225px 450px;}
+.main_wrap ul {width: 100%; display: flex; justify-content: center;  align-items: center; gap: 170px;}
+.main_wrap ul li {min-width: 850px; height: 1240px;}
+.main_wrap ul li a {border-radius: 35px; display: block; height: 100%;}
+.main_wrap ul li a .img_box {width: 100%; height: calc(100% - 240px); margin-bottom: 15px; border-radius: 35px 35px 0 0;}
+.main_wrap ul li a .img_box img{object-fit: cover; height: 100%;}
+.main_wrap ul li a .txt_box {height: 225px; display: flex; justify-content: center; align-items: center; background: url('../../../images/common/right_arrow.svg') no-repeat calc(100% - 80px) center; background-color: #4B4C56; border-radius: 0 0 35px 35px;}
+.main_wrap ul li a .txt_box span {color: #fff; font-size: 8.5rem;}
+
+.reverse .main_wrap ul li a .txt_box,
+.reverse .main_wrap ul li a .img_box{outline: 4px solid #F4E402;}

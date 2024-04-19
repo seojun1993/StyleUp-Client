@@ -1,0 +1,65 @@
+<div class="container">
+    <div class="content full-h">
+        <div class="camera_wrap">
+            <div class="content_box">
+                <canvas id="canvas" width="300" height="300"></canvas>
+                <div id="hiddenPath" style="display:none;">
+                </div>
+                <div id="camera">
+                    <div class="dress_box">
+                        <img id="dress" src="" alt="IMG" data-idx="1">
+                    </div>
+                    <div id="videoBox">
+                        <video id="video" autoplay></video>
+                    </div>
+                </div>
+
+                <div class="camera_box">
+                    <div class="bg">
+                        <img id="SelectdBg" src="" alt="IMG" data-idx="1">
+                    </div>
+                    <button id="captureButton" onclick="captureStart()">
+                        <div class="r_item">
+                            <img src="./images/common/camera.svg" alt="IMG">
+                            <img src="./images/common/camera_r.svg" alt="IMG">
+                            <span>촬영하기</span>
+                        </div>
+                    </button>
+                </div>
+
+                <div class="select_box">
+                    <div>
+                        <dl class="bg_select">
+                            <dt class="r_item">
+                                <img src="./images/camera/bg.svg" alt="IMG">
+                                <img src="./images/camera/bg_r.svg" alt="IMG">
+                                <span>배경선택</span
+                                    ></dt>
+                            <dd>
+                                <div class="swiper" id="bgSwiper">
+                                    <ul class="swiper-wrapper"></ul>
+                                </div>
+                                <div class="bg-button-prev swiper-button-prev"></div>
+                                <div class="bg-button-next swiper-button-next"></div>
+                            </dd>
+                        </dl>
+                        <dl class="dress_select">
+                            <dt class="r_item">
+                                <img src="./images/camera/dress.svg" alt="IMG">
+                                <img src="./images/camera/dress_r.svg" alt="IMG">
+                                <span>한복선택</span>
+                            </dt>
+                            <dd>
+                                <div class="swiper" id="dressSwiper">
+                                    <ul class="swiper-wrapper"></ul>
+                                </div>
+                                <div class="dress-button-prev swiper-button-prev"></div>
+                                <div class="dress-button-next swiper-button-next"></div>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

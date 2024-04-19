@@ -1,0 +1,52 @@
+#captureButton{position: absolute; bottom: 410px; left: 50%; transform: translateX(-50%); z-index: 100;}
+#captureButton > div{width: 410px; height: 410px; position: relative; display: flex; flex-direction: column; justify-content: center; align-items: center; flex-wrap: wrap; background: #5356E5; border-radius: 50%; box-shadow: 0 0 30px #5356E5;}
+#captureButton > div::before{content: ''; clear: both; display: block; position: absolute; width: calc(100% + 35px); height: calc(100% + 35px); background: #5356E5; z-index: -1; border-radius: 50%; opacity: 0.5;}
+#captureButton > div::after{content: ''; clear: both; display: block; position: absolute; width: calc(100% + 70px); height: calc(100% + 70px); background: rgba(255, 255, 255, 0.4); z-index: -2; border-radius: 50%;}
+#captureButton > div img{width: 172px;}
+#captureButton > div span{display: block; width: 100%; font-size: 6.5rem; padding-top: 40px;}
+
+.camera_wrap,
+.camera_wrap .content_box{width: 100%; height: 100%;}
+
+.dress_box{position: absolute; top: 0; left: 50%; transform: translateX(-50%); z-index: 10;}
+.dress_box img{position: relative; width: auto; z-index: 10;}
+
+#camera{position: absolute; left: 0; right:0; width: 100%; height: 100%; z-index: 50;}
+#videoBox{position: absolute; left:0; top:0; width:100%; height: 100%; z-index: 5;}
+#video{width:2560px; height: 1920px; display: flex; margin: 0 auto; -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;}
+#canvas{position: fixed; width: 1px; height: 1px; opacity: 0; z-index: -1; left: -9999px; top: -9999px; text-indent: -9999px;}
+
+.camera_box{position: relative; width: 100%; height: 100%;}
+.camera_box .bg{width: 100%; height: 100%;}
+.camera_box .bg > img{width: 100%; height: 100%; object-fit: cover;}
+
+.select_box{display: flex; justify-content: center; align-items: center; position: absolute; bottom: 0; width:100%; height: 340px; background: rgba(23, 29, 33, .8); z-index: 200;}
+.select_box > div{width:100%; display: flex; align-items: center;}
+.select_box > div dl{display: flex; justify-content: center; align-items: center; gap: 200px;}
+.select_box > div dl dt{display: flex; align-items: center;}
+.select_box > div dl dt img{display:inline-block; width: auto; margin-right: 30px;}
+.select_box > div dl dt span{font-size: 6.5rem;}
+.select_box > div dl.bg_select dd{position: relative; width:100%; max-width: 1280px;}
+.select_box > div dl.dress_select dd{position: relative; width:100%; max-width: 780px;}
+
+.bg_select{position: relative; width: 55%;}
+.bg_select::after{content: ''; clear: both; display: block; position: absolute; left:102.5%; top:50%; transform: translateY(-50%); width:1px; height:170px; background: #C1C1C1;}
+.bg_select dd .swiper li img{width: 100%; width: 230px; height: 80%;}
+
+.select_box dd li button{position: relative;}
+.select_box dd li button.active::before{content: ''; clear:both; display:block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background:url('../../../images/common/active.svg') no-repeat center/auto; z-index: 2;}
+.select_box dd li button.active::after{content: ''; clear:both; display:block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; background-color: rgba(7, 108, 116, .67);}
+
+.dress_select{width: 45%;}
+.select_box > div .dress_select dd li button{position: relative; width: 130px; height: 160px; background: url('../../../images/camera/dress/bg.png') no-repeat center/cover;}
+.select_box > div .dress_select dd li img{width: 100%; max-height: 80%; object-fit: contain;}
+
+.bg-button-prev, .bg-button-next, .dress-button-prev, .dress-button-next{color: #BFBFBF; font-size: 6rem;}
+
+.bg-button-prev, .dress-button-prev{right: calc(100% + 60px); left: auto;}
+.bg-button-next, .dress-button-next{left: calc(100% + 60px); right: auto;}
+
+.reverse #captureButton > div{background: #000; box-shadow: 0 0 30px #000;}
+.reverse #captureButton > div::before{background: rgba(0, 0, 0, .4); }
+.reverse #captureButton > div::after{background: rgba(255, 255, 255, 0.4);}
+.reverse #captureButton > div span{color: #f4e402;}

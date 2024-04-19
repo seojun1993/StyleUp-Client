@@ -1,0 +1,3 @@
+function intro_init(){
+    // playSign('0000000036-0000000160-4529bae287574407bb11f49f85af2402-d41ac6bdf50c43a98aac37612f28619c')
+}

@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KIOSK>
+    <HEADER>
+        <MAKE_TIME>20240307100016</MAKE_TIME>
+        <RET_CODE>SUCC</RET_CODE>
+        <KIOSK_ID>1</KIOSK_ID>
+        <KIOSK_CODE>BK000001</KIOSK_CODE>
+        <KIOSK_PASSWD>758B</KIOSK_PASSWD>
+        <URL_REPORT>https://play.namwon.go.kr/kiosk/user/xml/kiosk_report.jsp</URL_REPORT>
+        <URL_STATUS>https://play.namwon.go.kr/kiosk/user/xml/kiosk_status.jsp</URL_STATUS>
+    </HEADER>
+    <NOTICE_LIST>
+      <NOTICE_INFO id="159" type="IMG">
+        <NOTICE_NAME><![CDATA[]]></NOTICE_NAME>
+        <NOTICE_DESC><![CDATA[]]></NOTICE_DESC>
+        <SCH_TYPE sday="20240228" eday="20240324" stime="0000" etime="2359" >DAY</SCH_TYPE>
+        <FILE_URL ptime="10.0"><![CDATA[commonfiles/contents/MAIN000159.png]]></FILE_URL>
+      </NOTICE_INFO>
+          <NOTICE_INFO id="157" type="IMG">
+        <NOTICE_NAME><![CDATA[]]></NOTICE_NAME>
+        <NOTICE_DESC><![CDATA[]]></NOTICE_DESC>
+        <SCH_TYPE sday="20240202" eday="20240519" stime="0000" etime="2359" >DAY</SCH_TYPE>
+        <FILE_URL ptime="10.0"><![CDATA[commonfiles/contents/MAIN000157.jpg]]></FILE_URL>
+      </NOTICE_INFO>
+          <NOTICE_INFO id="149" type="MOV">
+        <NOTICE_NAME><![CDATA[]]></NOTICE_NAME>
+        <NOTICE_DESC><![CDATA[]]></NOTICE_DESC>
+        <SCH_TYPE sday="20240101" eday="20240930" stime="0000" etime="2359" >DAY</SCH_TYPE>
+        <FILE_URL ptime="30.04"><![CDATA[commonfiles/contents/MAIN000149.mp4]]></FILE_URL>
+      </NOTICE_INFO>
+          <NOTICE_INFO id="145" type="MOV">
+        <NOTICE_NAME><![CDATA[]]></NOTICE_NAME>
+        <NOTICE_DESC><![CDATA[]]></NOTICE_DESC>
+        <SCH_TYPE sday="20231221" eday="20240531" stime="0000" etime="2359" >DAY</SCH_TYPE>
+        <FILE_URL ptime="30.07"><![CDATA[commonfiles/contents/MAIN000145.mp4]]></FILE_URL>
+      </NOTICE_INFO>
+    </NOTICE_LIST>
+    <EVENT_LIST>
+      <EVENT_INFO id="160" type="IMG">
+        <EVENT_NAME><![CDATA[]]></EVENT_NAME>
+        <EVENT_DESC><![CDATA[]]></EVENT_DESC>
+        <SCH_TYPE sday="20240228" eday="20240324" stime="0000" etime="2359" >DAY</SCH_TYPE>
+        <FILE_URL ptime="10.0"><![CDATA[commonfiles/contents/MAIN000160.png]]></FILE_URL>
+      </EVENT_INFO>
+          <EVENT_INFO id="155" type="IMG">
+        <EVENT_NAME><![CDATA[]]></EVENT_NAME>
+        <EVENT_DESC><![CDATA[]]></EVENT_DESC>
+        <SCH_TYPE sday="20240202" eday="20240519" stime="0000" etime="2359" >DAY</SCH_TYPE>
+        <FILE_URL ptime="10.0"><![CDATA[commonfiles/contents/MAIN000155.jpg]]></FILE_URL>
+      </EVENT_INFO>
+          <EVENT_INFO id="154" type="IMG">
+        <EVENT_NAME><![CDATA[]]></EVENT_NAME>
+        <EVENT_DESC><![CDATA[]]></EVENT_DESC>
+        <SCH_TYPE sday="20240202" eday="20240519" stime="0000" etime="2359" >DAY</SCH_TYPE>
+        <FILE_URL ptime="10.0"><![CDATA[commonfiles/contents/MAIN000154.jpg]]></FILE_URL>
+      </EVENT_INFO>
+          <EVENT_INFO id="152" type="IMG">
+        <EVENT_NAME><![CDATA[]]></EVENT_NAME>
+        <EVENT_DESC><![CDATA[]]></EVENT_DESC>
+        <SCH_TYPE sday="20240202" eday="20240519" stime="0000" etime="2359" >DAY</SCH_TYPE>
+        <FILE_URL ptime="10.0"><![CDATA[commonfiles/contents/MAIN000152.jpg]]></FILE_URL>
+      </EVENT_INFO>
+          <EVENT_INFO id="151" type="IMG">
+        <EVENT_NAME><![CDATA[]]></EVENT_NAME>
+        <EVENT_DESC><![CDATA[]]></EVENT_DESC>
+        <SCH_TYPE sday="20240202" eday="20240519" stime="0000" etime="2359" >DAY</SCH_TYPE>
+        <FILE_URL ptime="10.0"><![CDATA[commonfiles/contents/MAIN000151.jpg]]></FILE_URL>
+      </EVENT_INFO>
+    </EVENT_LIST>
+    <HOTEL_LIST>
+      <HOTEL_INFO id="44">
+         <FILE_URL><![CDATA[commonfiles/contents/MAIN000044.png]]></FILE_URL>
+      </HOTEL_INFO>
+          <HOTEL_INFO id="43">
+         <FILE_URL><![CDATA[commonfiles/contents/MAIN000043.png]]></FILE_URL>
+      </HOTEL_INFO>
+          <HOTEL_INFO id="42">
+         <FILE_URL><![CDATA[commonfiles/contents/MAIN000042.png]]></FILE_URL>
+      </HOTEL_INFO>
+    </HOTEL_LIST>
+<TOUR_LIST>
+	<TOUR_INFO id="0001">
+		<TOUR_NAME_KOR><![CDATA[광한루]]></TOUR_NAME_KOR>
+		<TOUR_NAME_ENG><![CDATA[광한루]]></TOUR_NAME_ENG>
+		<TOUR_NAME_CHN><![CDATA[광한루]]></TOUR_NAME_CHN>
+		<TOUR_NAME_JPN><![CDATA[광한루]]></TOUR_NAME_JPN>
+		<TOUR_DESC_KOR><![CDATA[광한루는 원래 1419년 황희 정승이 남원으로 유배되어 왔을 때 "광통루"란 작은 누각을 지어 산수를 즐기던 곳이다. 이후 세종 26년(1444)에 하동 부원군 정인지가 이곳의 아름다운 경치에 반해 달나라 미인 항아가 사는 월궁속의 '광한청허부'를 본따 '광한루'라 바꿔 부르게 되었다.]]></TOUR_DESC_KOR>
+		<TOUR_DESC_ENG><![CDATA[광한루는 원래 1419년 황희 정승이 남원으로 유배되어 왔을 때 "광통루"란 작은 누각을 지어 산수를 즐기던 곳이다. 이후 세종 26년(1444)에 하동 부원군 정인지가 이곳의 아름다운 경치에 반해 달나라 미인 항아가 사는 월궁속의 '광한청허부'를 본따 '광한루'라 바꿔 부르게 되었다.]]></TOUR_DESC_ENG>
+		<TOUR_DESC_CHN><![CDATA[광한루는 원래 1419년 황희 정승이 남원으로 유배되어 왔을 때 "광통루"란 작은 누각을 지어 산수를 즐기던 곳이다. 이후 세종 26년(1444)에 하동 부원군 정인지가 이곳의 아름다운 경치에 반해 달나라 미인 항아가 사는 월궁속의 '광한청허부'를 본따 '광한루'라 바꿔 부르게 되었다.]]></TOUR_DESC_CHN>
+		<TOUR_DESC_JPN><![CDATA[광한루는 원래 1419년 황희 정승이 남원으로 유배되어 왔을 때 "광통루"란 작은 누각을 지어 산수를 즐기던 곳이다. 이후 세종 26년(1444)에 하동 부원군 정인지가 이곳의 아름다운 경치에 반해 달나라 미인 항아가 사는 월궁속의 '광한청허부'를 본따 '광한루'라 바꿔 부르게 되었다.]]></TOUR_DESC_JPN>
+		<TOUR_ADDRESS_KOR><![CDATA[전라북도 남원시 요천로 1447번지 (천거동)]]></TOUR_ADDRESS_KOR>
+		<TOUR_ADDRESS_ENG><![CDATA[전라북도 남원시 요천로 1447번지 (천거동)]]></TOUR_ADDRESS_ENG>
+		<TOUR_ADDRESS_CHN><![CDATA[전라북도 남원시 요천로 1447번지 (천거동)]]></TOUR_ADDRESS_CHN>
+		<TOUR_ADDRESS_JPN><![CDATA[전라북도 남원시 요천로 1447번지 (천거동)]]></TOUR_ADDRESS_JPN>
+		<TOUR_PHONE><![CDATA[063-625-4861]]></TOUR_PHONE>
+		<FILE_URL><![CDATA[commonfiles/tour/tour_img_001.jpg]]></FILE_URL>
+	</TOUR_INFO>
+	<TOUR_INFO id="0002">
+		<TOUR_NAME_KOR><![CDATA[완월정]]></TOUR_NAME_KOR>
+		<TOUR_NAME_ENG><![CDATA[완월정]]></TOUR_NAME_ENG>
+		<TOUR_NAME_CHN><![CDATA[완월정]]></TOUR_NAME_CHN>
+		<TOUR_NAME_JPN><![CDATA[완월정]]></TOUR_NAME_JPN>
+		<TOUR_DESC_KOR><![CDATA[완월정은 1971년에 신축된 수중누각으로 1963년 채기묵 남원군수의 재임(1962년 4월 5일~1963년 5월 31일) 당시부터 연차계획을 세워 경내를 확장하고 주변을 정화하는 과정에서 증설된 건물이다. 1969년 기존 호수를 확장하여 인공 방장형 호수를 축조한 후 수중누각으로 신축한 것인데 2층 누각이다. 누각의 이름은 옛날 남원성 남문의 문루(門樓)인 완월루(翫月樓)에서 따온 것이다]]></TOUR_DESC_KOR>
+		<TOUR_DESC_ENG><![CDATA[완월정은 1971년에 신축된 수중누각으로 1963년 채기묵 남원군수의 재임(1962년 4월 5일~1963년 5월 31일) 당시부터 연차계획을 세워 경내를 확장하고 주변을 정화하는 과정에서 증설된 건물이다. 1969년 기존 호수를 확장하여 인공 방장형 호수를 축조한 후 수중누각으로 신축한 것인데 2층 누각이다. 누각의 이름은 옛날 남원성 남문의 문루(門樓)인 완월루(翫月樓)에서 따온 것이다]]></TOUR_DESC_ENG>
+		<TOUR_DESC_CHN><![CDATA[완월정은 1971년에 신축된 수중누각으로 1963년 채기묵 남원군수의 재임(1962년 4월 5일~1963년 5월 31일) 당시부터 연차계획을 세워 경내를 확장하고 주변을 정화하는 과정에서 증설된 건물이다. 1969년 기존 호수를 확장하여 인공 방장형 호수를 축조한 후 수중누각으로 신축한 것인데 2층 누각이다. 누각의 이름은 옛날 남원성 남문의 문루(門樓)인 완월루(翫月樓)에서 따온 것이다]]></TOUR_DESC_CHN>
+		<TOUR_DESC_JPN><![CDATA[완월정은 1971년에 신축된 수중누각으로 1963년 채기묵 남원군수의 재임(1962년 4월 5일~1963년 5월 31일) 당시부터 연차계획을 세워 경내를 확장하고 주변을 정화하는 과정에서 증설된 건물이다. 1969년 기존 호수를 확장하여 인공 방장형 호수를 축조한 후 수중누각으로 신축한 것인데 2층 누각이다. 누각의 이름은 옛날 남원성 남문의 문루(門樓)인 완월루(翫月樓)에서 따온 것이다]]></TOUR_DESC_JPN>
+		<TOUR_ADDRESS_KOR><![CDATA[전라북도 남원시 요천로 1447번지(천거동)]]></TOUR_ADDRESS_KOR>
+		<TOUR_ADDRESS_ENG><![CDATA[전라북도 남원시 요천로 1447번지(천거동)]]></TOUR_ADDRESS_ENG>
+		<TOUR_ADDRESS_CHN><![CDATA[전라북도 남원시 요천로 1447번지(천거동)]]></TOUR_ADDRESS_CHN>
+		<TOUR_ADDRESS_JPN><![CDATA[전라북도 남원시 요천로 1447번지(천거동)]]></TOUR_ADDRESS_JPN>
+		<TOUR_PHONE><![CDATA[063-625-4861]]></TOUR_PHONE>
+		<FILE_URL><![CDATA[commonfiles/tour/tour_img_002.jpg]]></FILE_URL>
+	</TOUR_INFO>
+	<TOUR_INFO id="0003">
+		<TOUR_NAME_KOR><![CDATA[남원다움관]]></TOUR_NAME_KOR>
+		<TOUR_NAME_ENG><![CDATA[남원다움관]]></TOUR_NAME_ENG>
+		<TOUR_NAME_CHN><![CDATA[남원다움관]]></TOUR_NAME_CHN>
+		<TOUR_NAME_JPN><![CDATA[남원다움관]]></TOUR_NAME_JPN>
+		<TOUR_DESC_KOR><![CDATA[근현대기록관으로써 중요기록물(아카이브즈)을 수집·보전하여 남원의 정체성을 확보하는 공간입니다. 또한 남원에서 함께 살아온 사람들의 이야기와 삶의 기억을 추억하고 기록으로 보존해가는 공간으로 라키비움의 성격을 지닌 복합문화공간입니다. ]]></TOUR_DESC_KOR>
+		<TOUR_DESC_ENG><![CDATA[근현대기록관으로써 중요기록물(아카이브즈)을 수집·보전하여 남원의 정체성을 확보하는 공간입니다. 또한 남원에서 함께 살아온 사람들의 이야기와 삶의 기억을 추억하고 기록으로 보존해가는 공간으로 라키비움의 성격을 지닌 복합문화공간입니다. ]]></TOUR_DESC_ENG>
+		<TOUR_DESC_CHN><![CDATA[근현대기록관으로써 중요기록물(아카이브즈)을 수집·보전하여 남원의 정체성을 확보하는 공간입니다. 또한 남원에서 함께 살아온 사람들의 이야기와 삶의 기억을 추억하고 기록으로 보존해가는 공간으로 라키비움의 성격을 지닌 복합문화공간입니다. ]]></TOUR_DESC_CHN>
+		<TOUR_DESC_JPN><![CDATA[근현대기록관으로써 중요기록물(아카이브즈)을 수집·보전하여 남원의 정체성을 확보하는 공간입니다. 또한 남원에서 함께 살아온 사람들의 이야기와 삶의 기억을 추억하고 기록으로 보존해가는 공간으로 라키비움의 성격을 지닌 복합문화공간입니다. ]]></TOUR_DESC_JPN>
+		<TOUR_ADDRESS_KOR><![CDATA[전라북도 남원시 검멀1길 14]]></TOUR_ADDRESS_KOR>
+		<TOUR_ADDRESS_ENG><![CDATA[전라북도 남원시 검멀1길 14]]></TOUR_ADDRESS_ENG>
+		<TOUR_ADDRESS_CHN><![CDATA[전라북도 남원시 검멀1길 14]]></TOUR_ADDRESS_CHN>
+		<TOUR_ADDRESS_JPN><![CDATA[전라북도 남원시 검멀1길 14]]></TOUR_ADDRESS_JPN>
+		<TOUR_PHONE><![CDATA[063-620-5671]]></TOUR_PHONE>
+		<FILE_URL><![CDATA[commonfiles/tour/tour_img_003.jpg]]></FILE_URL>
+	</TOUR_INFO>
+	<TOUR_INFO id="0004">
+		<TOUR_NAME_KOR><![CDATA[남원 추어거리]]></TOUR_NAME_KOR>
+		<TOUR_NAME_ENG><![CDATA[남원 추어거리]]></TOUR_NAME_ENG>
+		<TOUR_NAME_CHN><![CDATA[남원 추어거리]]></TOUR_NAME_CHN>
+		<TOUR_NAME_JPN><![CDATA[남원 추어거리]]></TOUR_NAME_JPN>
+		<TOUR_DESC_KOR><![CDATA[추어탕 거리는 춘향전의 주무대인 남원 광한루원 주변에 약 20개의 식당이 모여 형성된 거리이다. 남원은 섬진강의 맑은 물이 흘러 미꾸라지가 많고, 토란대, 고사리 등이 잘 자라는 자연환경을 갖추고 있어 예로부터 가을 추수철이면 원기회복을 위한 보양 음식으로 추어탕을 즐겨 먹었다. 추어탕은 미꾸라지를 익현 통째로 갈아 넣고 채소와 된장을 함께 끓여내는 음식으로, 사계절 보양식으로 잘 알려져 있다. 추어탕 거리에 있는 식당들은 인근에서 직접 잡은 민물 미꾸라지를 사용하여 저마다의 양념과 비법으로 추어탕을 요리하여 손님을 맞이하고 있다. 추어탕 거리 주변으로는 춘향테마파크, 지리산 둘레길을 비롯한 많은 관광지가 있어 관광과 먹거리를 동시에 즐길 수 있다.]]></TOUR_DESC_KOR>
+		<TOUR_DESC_ENG><![CDATA[추어탕 거리는 춘향전의 주무대인 남원 광한루원 주변에 약 20개의 식당이 모여 형성된 거리이다. 남원은 섬진강의 맑은 물이 흘러 미꾸라지가 많고, 토란대, 고사리 등이 잘 자라는 자연환경을 갖추고 있어 예로부터 가을 추수철이면 원기회복을 위한 보양 음식으로 추어탕을 즐겨 먹었다. 추어탕은 미꾸라지를 익현 통째로 갈아 넣고 채소와 된장을 함께 끓여내는 음식으로, 사계절 보양식으로 잘 알려져 있다. 추어탕 거리에 있는 식당들은 인근에서 직접 잡은 민물 미꾸라지를 사용하여 저마다의 양념과 비법으로 추어탕을 요리하여 손님을 맞이하고 있다. 추어탕 거리 주변으로는 춘향테마파크, 지리산 둘레길을 비롯한 많은 관광지가 있어 관광과 먹거리를 동시에 즐길 수 있다.]]></TOUR_DESC_ENG>
+		<TOUR_DESC_CHN><![CDATA[추어탕 거리는 춘향전의 주무대인 남원 광한루원 주변에 약 20개의 식당이 모여 형성된 거리이다. 남원은 섬진강의 맑은 물이 흘러 미꾸라지가 많고, 토란대, 고사리 등이 잘 자라는 자연환경을 갖추고 있어 예로부터 가을 추수철이면 원기회복을 위한 보양 음식으로 추어탕을 즐겨 먹었다. 추어탕은 미꾸라지를 익현 통째로 갈아 넣고 채소와 된장을 함께 끓여내는 음식으로, 사계절 보양식으로 잘 알려져 있다. 추어탕 거리에 있는 식당들은 인근에서 직접 잡은 민물 미꾸라지를 사용하여 저마다의 양념과 비법으로 추어탕을 요리하여 손님을 맞이하고 있다. 추어탕 거리 주변으로는 춘향테마파크, 지리산 둘레길을 비롯한 많은 관광지가 있어 관광과 먹거리를 동시에 즐길 수 있다.]]></TOUR_DESC_CHN>
+		<TOUR_DESC_JPN><![CDATA[추어탕 거리는 춘향전의 주무대인 남원 광한루원 주변에 약 20개의 식당이 모여 형성된 거리이다. 남원은 섬진강의 맑은 물이 흘러 미꾸라지가 많고, 토란대, 고사리 등이 잘 자라는 자연환경을 갖추고 있어 예로부터 가을 추수철이면 원기회복을 위한 보양 음식으로 추어탕을 즐겨 먹었다. 추어탕은 미꾸라지를 익현 통째로 갈아 넣고 채소와 된장을 함께 끓여내는 음식으로, 사계절 보양식으로 잘 알려져 있다. 추어탕 거리에 있는 식당들은 인근에서 직접 잡은 민물 미꾸라지를 사용하여 저마다의 양념과 비법으로 추어탕을 요리하여 손님을 맞이하고 있다. 추어탕 거리 주변으로는 춘향테마파크, 지리산 둘레길을 비롯한 많은 관광지가 있어 관광과 먹거리를 동시에 즐길 수 있다.]]></TOUR_DESC_JPN>
+		<TOUR_ADDRESS_KOR><![CDATA[전라북도 남원시 천거동 (천거동)]]></TOUR_ADDRESS_KOR>
+		<TOUR_ADDRESS_ENG><![CDATA[전라북도 남원시 천거동 (천거동)]]></TOUR_ADDRESS_ENG>
+		<TOUR_ADDRESS_CHN><![CDATA[전라북도 남원시 천거동 (천거동)]]></TOUR_ADDRESS_CHN>
+		<TOUR_ADDRESS_JPN><![CDATA[전라북도 남원시 천거동 (천거동)]]></TOUR_ADDRESS_JPN>
+		<TOUR_PHONE><![CDATA[063-625-4861]]></TOUR_PHONE>
+		<FILE_URL><![CDATA[commonfiles/tour/tour_img_004.jpg]]></FILE_URL>
+	</TOUR_INFO>
+	<TOUR_INFO id="0005">
+		<TOUR_NAME_KOR><![CDATA[전통한옥 체험시설]]></TOUR_NAME_KOR>
+		<TOUR_NAME_ENG><![CDATA[전통한옥 체험시설]]></TOUR_NAME_ENG>
+		<TOUR_NAME_CHN><![CDATA[전통한옥 체험시설]]></TOUR_NAME_CHN>
+		<TOUR_NAME_JPN><![CDATA[전통한옥 체험시설]]></TOUR_NAME_JPN>
+		<TOUR_DESC_KOR><![CDATA[전통한옥 체험단지 남원예촌(by kensington)은 최기영 대목장, 이근복 번와장을 비롯한 한옥명장들이 혼을 담아 지은 전통한옥으로서, 시멘트, 스티로폼, 화학단열제 등 인체에 해로운 인위적인 재료는 일체 사용하지 않고, 소나무, 천연옻칠, 한지, 황토, 대나무와 해초 풀 등 오로지 자연에서 얻은 귀한 천연재료만 사용하여 순수 고(古)건축방식을 재현했다.]]></TOUR_DESC_KOR>
+		<TOUR_DESC_ENG><![CDATA[전통한옥 체험단지 남원예촌(by kensington)은 최기영 대목장, 이근복 번와장을 비롯한 한옥명장들이 혼을 담아 지은 전통한옥으로서, 시멘트, 스티로폼, 화학단열제 등 인체에 해로운 인위적인 재료는 일체 사용하지 않고, 소나무, 천연옻칠, 한지, 황토, 대나무와 해초 풀 등 오로지 자연에서 얻은 귀한 천연재료만 사용하여 순수 고(古)건축방식을 재현했다.]]></TOUR_DESC_ENG>
+		<TOUR_DESC_CHN><![CDATA[전통한옥 체험단지 남원예촌(by kensington)은 최기영 대목장, 이근복 번와장을 비롯한 한옥명장들이 혼을 담아 지은 전통한옥으로서, 시멘트, 스티로폼, 화학단열제 등 인체에 해로운 인위적인 재료는 일체 사용하지 않고, 소나무, 천연옻칠, 한지, 황토, 대나무와 해초 풀 등 오로지 자연에서 얻은 귀한 천연재료만 사용하여 순수 고(古)건축방식을 재현했다.]]></TOUR_DESC_CHN>
+		<TOUR_DESC_JPN><![CDATA[전통한옥 체험단지 남원예촌(by kensington)은 최기영 대목장, 이근복 번와장을 비롯한 한옥명장들이 혼을 담아 지은 전통한옥으로서, 시멘트, 스티로폼, 화학단열제 등 인체에 해로운 인위적인 재료는 일체 사용하지 않고, 소나무, 천연옻칠, 한지, 황토, 대나무와 해초 풀 등 오로지 자연에서 얻은 귀한 천연재료만 사용하여 순수 고(古)건축방식을 재현했다.]]></TOUR_DESC_JPN>
+		<TOUR_ADDRESS_KOR><![CDATA[전라북도 남원시 광한북로 17 (금동)]]></TOUR_ADDRESS_KOR>
+		<TOUR_ADDRESS_ENG><![CDATA[전라북도 남원시 광한북로 17 (금동)]]></TOUR_ADDRESS_ENG>
+		<TOUR_ADDRESS_CHN><![CDATA[전라북도 남원시 광한북로 17 (금동)]]></TOUR_ADDRESS_CHN>
+		<TOUR_ADDRESS_JPN><![CDATA[전라북도 남원시 광한북로 17 (금동)]]></TOUR_ADDRESS_JPN>
+		<TOUR_PHONE><![CDATA[063-636-8001]]></TOUR_PHONE>
+		<FILE_URL><![CDATA[commonfiles/tour/tour_img_005.jpg]]></FILE_URL>
+	</TOUR_INFO>
+	<TOUR_INFO id="0006">
+		<TOUR_NAME_KOR><![CDATA[전통문화 체험시설]]></TOUR_NAME_KOR>
+		<TOUR_NAME_ENG><![CDATA[전통문화 체험시설]]></TOUR_NAME_ENG>
+		<TOUR_NAME_CHN><![CDATA[전통문화 체험시설]]></TOUR_NAME_CHN>
+		<TOUR_NAME_JPN><![CDATA[전통문화 체험시설]]></TOUR_NAME_JPN>
+		<TOUR_DESC_KOR><![CDATA[ ]]></TOUR_DESC_KOR>
+		<TOUR_DESC_ENG><![CDATA[ ]]></TOUR_DESC_ENG>
+		<TOUR_DESC_CHN><![CDATA[ ]]></TOUR_DESC_CHN>
+		<TOUR_DESC_JPN><![CDATA[ ]]></TOUR_DESC_JPN>
+		<TOUR_ADDRESS_KOR><![CDATA[전라북도 남원시 광안북로 20]]></TOUR_ADDRESS_KOR>
+		<TOUR_ADDRESS_ENG><![CDATA[전라북도 남원시 광안북로 20]]></TOUR_ADDRESS_ENG>
+		<TOUR_ADDRESS_CHN><![CDATA[전라북도 남원시 광안북로 20]]></TOUR_ADDRESS_CHN>
+		<TOUR_ADDRESS_JPN><![CDATA[전라북도 남원시 광안북로 20]]></TOUR_ADDRESS_JPN>
+		<TOUR_PHONE><![CDATA[063-620-6165]]></TOUR_PHONE>
+		<FILE_URL><![CDATA[commonfiles/tour/tour_img_006.jpg]]></FILE_URL>
+	</TOUR_INFO>
+	<TOUR_INFO id="0007">
+		<TOUR_NAME_KOR><![CDATA[남원 고전소설 문학관]]></TOUR_NAME_KOR>
+		<TOUR_NAME_ENG><![CDATA[남원 고전소설 문학관]]></TOUR_NAME_ENG>
+		<TOUR_NAME_CHN><![CDATA[남원 고전소설 문학관]]></TOUR_NAME_CHN>
+		<TOUR_NAME_JPN><![CDATA[남원 고전소설 문학관]]></TOUR_NAME_JPN>
+		<TOUR_DESC_KOR><![CDATA[남원은 한국고전문학의 메카입니다. 이는 한국의 고전 작품을 대표하는 불멸의 명작 <춘향전>과 <흥부전> 그리고 매월당 김시습의<만복사저포기>, 조위한의 <최척전>, 유몽인의 <홍도전>의 발상지가 남원이기 때문입니다. 고전문학은 우리민족의 고유한 정서와 삶의 가치를 문학적 형식으로 고스란히 전해줍니다. [남원고전소설문학관]은 남원의 고전 문학사를 정립하고 문학적 전통을 창조적으로 계승 발전시키며 관람객이 고전문학을 자연스럽고 흥미롭게 접할 수 있는 열린 문학관입니다.]]></TOUR_DESC_KOR>"
+		<TOUR_DESC_ENG><![CDATA[남원은 한국고전문학의 메카입니다. 이는 한국의 고전 작품을 대표하는 불멸의 명작 <춘향전>과 <흥부전> 그리고 매월당 김시습의<만복사저포기>, 조위한의 <최척전>, 유몽인의 <홍도전>의 발상지가 남원이기 때문입니다. 고전문학은 우리민족의 고유한 정서와 삶의 가치를 문학적 형식으로 고스란히 전해줍니다. [남원고전소설문학관]은 남원의 고전 문학사를 정립하고 문학적 전통을 창조적으로 계승 발전시키며 관람객이 고전문학을 자연스럽고 흥미롭게 접할 수 있는 열린 문학관입니다.]]></TOUR_DESC_ENG>"
+		<TOUR_DESC_CHN><![CDATA[남원은 한국고전문학의 메카입니다. 이는 한국의 고전 작품을 대표하는 불멸의 명작 <춘향전>과 <흥부전> 그리고 매월당 김시습의<만복사저포기>, 조위한의 <최척전>, 유몽인의 <홍도전>의 발상지가 남원이기 때문입니다. 고전문학은 우리민족의 고유한 정서와 삶의 가치를 문학적 형식으로 고스란히 전해줍니다. [남원고전소설문학관]은 남원의 고전 문학사를 정립하고 문학적 전통을 창조적으로 계승 발전시키며 관람객이 고전문학을 자연스럽고 흥미롭게 접할 수 있는 열린 문학관입니다.]]></TOUR_DESC_CHN>"
+		<TOUR_DESC_JPN><![CDATA[남원은 한국고전문학의 메카입니다. 이는 한국의 고전 작품을 대표하는 불멸의 명작 <춘향전>과 <흥부전> 그리고 매월당 김시습의<만복사저포기>, 조위한의 <최척전>, 유몽인의 <홍도전>의 발상지가 남원이기 때문입니다. 고전문학은 우리민족의 고유한 정서와 삶의 가치를 문학적 형식으로 고스란히 전해줍니다. [남원고전소설문학관]은 남원의 고전 문학사를 정립하고 문학적 전통을 창조적으로 계승 발전시키며 관람객이 고전문학을 자연스럽고 흥미롭게 접할 수 있는 열린 문학관입니다.]]></TOUR_DESC_JPN>"
+		<TOUR_ADDRESS_KOR><![CDATA[남원시 향단로 10]]></TOUR_ADDRESS_KOR>
+		<TOUR_ADDRESS_ENG><![CDATA[남원시 향단로 10]]></TOUR_ADDRESS_ENG>
+		<TOUR_ADDRESS_CHN><![CDATA[남원시 향단로 10]]></TOUR_ADDRESS_CHN>
+		<TOUR_ADDRESS_JPN><![CDATA[남원시 향단로 10]]></TOUR_ADDRESS_JPN>
+		<TOUR_PHONE><![CDATA[063-620-5676]]></TOUR_PHONE>
+		<FILE_URL><![CDATA[commonfiles/tour/tour_img_007.jpg]]></FILE_URL>
+	</TOUR_INFO>
+</TOUR_LIST>	<STORE_LIST>
+      <STORE_INFO id="2c99818c8c85e8cc018c8bd194072d6c">
+            <STORE_NAME_KOR><![CDATA[부산집]]></STORE_NAME_KOR>
+            <STORE_NAME_ENG><![CDATA[부산집]]></STORE_NAME_ENG>
+            <STORE_NAME_CHN><![CDATA[부산집]]></STORE_NAME_CHN>
+            <STORE_NAME_JPN><![CDATA[부산집]]></STORE_NAME_JPN>
+            <STORE_DESC_KOR><![CDATA[]]></STORE_DESC_KOR>
+            <STORE_DESC_ENG><![CDATA[]]></STORE_DESC_ENG>
+            <STORE_DESC_CHN><![CDATA[]]></STORE_DESC_CHN>
+            <STORE_DESC_JPN><![CDATA[]]></STORE_DESC_JPN>
+            <STORE_ADDRESS_KOR><![CDATA[전북 남원시 요천로 1411]]></STORE_ADDRESS_KOR>
+            <STORE_ADDRESS_ENG><![CDATA[전북 남원시 요천로 1411]]></STORE_ADDRESS_ENG>
+            <STORE_ADDRESS_CHN><![CDATA[전북 남원시 요천로 1411]]></STORE_ADDRESS_CHN>
+            <STORE_ADDRESS_JPN><![CDATA[전북 남원시 요천로 1411]]></STORE_ADDRESS_JPN>
+            <FILE_URL><![CDATA[commonfiles/tour/059bf261-7ab3-409e-86c4-96017c965a80.jpg]]></FILE_URL>
+            <STORE_LAT>0</STORE_LAT>
+            <STORE_LON>0</STORE_LON>
+            <STORE_MAP_URL><![CDATA[]]></STORE_MAP_URL>
+            <FILE_URL><![CDATA[commonfiles/tour/059bf261-7ab3-409e-86c4-96017c965a80.jpg]]></FILE_URL>
+        </STORE_INFO>
+      <STORE_INFO id="2c99818c8c85e8cc018c8bdb798a2db7">
+            <STORE_NAME_KOR><![CDATA[봉가면옥]]></STORE_NAME_KOR>
+            <STORE_NAME_ENG><![CDATA[봉가면옥]]></STORE_NAME_ENG>
+            <STORE_NAME_CHN><![CDATA[봉가면옥]]></STORE_NAME_CHN>
+            <STORE_NAME_JPN><![CDATA[봉가면옥]]></STORE_NAME_JPN>
+            <STORE_DESC_KOR><![CDATA[]]></STORE_DESC_KOR>
+            <STORE_DESC_ENG><![CDATA[]]></STORE_DESC_ENG>
+            <STORE_DESC_CHN><![CDATA[]]></STORE_DESC_CHN>
+            <STORE_DESC_JPN><![CDATA[]]></STORE_DESC_JPN>
+            <STORE_ADDRESS_KOR><![CDATA[전북 남원시 소리길 177]]></STORE_ADDRESS_KOR>
+            <STORE_ADDRESS_ENG><![CDATA[전북 남원시 소리길 177]]></STORE_ADDRESS_ENG>
+            <STORE_ADDRESS_CHN><![CDATA[전북 남원시 소리길 177]]></STORE_ADDRESS_CHN>
+            <STORE_ADDRESS_JPN><![CDATA[전북 남원시 소리길 177]]></STORE_ADDRESS_JPN>
+            <FILE_URL><![CDATA[commonfiles/tour/cac88a1b-b9a2-4a76-bb8e-a30a52e4b352.jpg]]></FILE_URL>
+            <STORE_LAT>0</STORE_LAT>
+            <STORE_LON>0</STORE_LON>
+            <STORE_MAP_URL><![CDATA[]]></STORE_MAP_URL>
+            <FILE_URL><![CDATA[commonfiles/tour/cac88a1b-b9a2-4a76-bb8e-a30a52e4b352.jpg]]></FILE_URL>
+        </STORE_INFO>
+      <STORE_INFO id="2c99818c8c85e8cc018c8bd9da602daa">
+            <STORE_NAME_KOR><![CDATA[고향맛집]]></STORE_NAME_KOR>
+            <STORE_NAME_ENG><![CDATA[고향맛집]]></STORE_NAME_ENG>
+            <STORE_NAME_CHN><![CDATA[고향맛집]]></STORE_NAME_CHN>
+            <STORE_NAME_JPN><![CDATA[고향맛집]]></STORE_NAME_JPN>
+            <STORE_DESC_KOR><![CDATA[]]></STORE_DESC_KOR>
+            <STORE_DESC_ENG><![CDATA[]]></STORE_DESC_ENG>
+            <STORE_DESC_CHN><![CDATA[]]></STORE_DESC_CHN>
+            <STORE_DESC_JPN><![CDATA[]]></STORE_DESC_JPN>
+            <STORE_ADDRESS_KOR><![CDATA[전북 남원시 대산면 운교1길 34]]></STORE_ADDRESS_KOR>
+            <STORE_ADDRESS_ENG><![CDATA[전북 남원시 대산면 운교1길 34]]></STORE_ADDRESS_ENG>
+            <STORE_ADDRESS_CHN><![CDATA[전북 남원시 대산면 운교1길 34]]></STORE_ADDRESS_CHN>
+            <STORE_ADDRESS_JPN><![CDATA[전북 남원시 대산면 운교1길 34]]></STORE_ADDRESS_JPN>
+            <FILE_URL><![CDATA[commonfiles/tour/bb0ae9b6-aea8-4dce-9752-52bdd111e57c.jpg]]></FILE_URL>
+            <STORE_LAT>0</STORE_LAT>
+            <STORE_LON>0</STORE_LON>
+            <STORE_MAP_URL><![CDATA[]]></STORE_MAP_URL>
+            <FILE_URL><![CDATA[commonfiles/tour/bb0ae9b6-aea8-4dce-9752-52bdd111e57c.jpg]]></FILE_URL>
+        </STORE_INFO>
+      <STORE_INFO id="2c99818c8c85e8cc018c8bd88f232da0">
+            <STORE_NAME_KOR><![CDATA[달궁식당지리산점]]></STORE_NAME_KOR>
+            <STORE_NAME_ENG><![CDATA[달궁식당지리산점]]></STORE_NAME_ENG>
+            <STORE_NAME_CHN><![CDATA[달궁식당지리산점]]></STORE_NAME_CHN>
+            <STORE_NAME_JPN><![CDATA[달궁식당지리산점]]></STORE_NAME_JPN>
+            <STORE_DESC_KOR><![CDATA[]]></STORE_DESC_KOR>
+            <STORE_DESC_ENG><![CDATA[]]></STORE_DESC_ENG>
+            <STORE_DESC_CHN><![CDATA[]]></STORE_DESC_CHN>
+            <STORE_DESC_JPN><![CDATA[]]></STORE_DESC_JPN>
+            <STORE_ADDRESS_KOR><![CDATA[전북 남원시 산내면 지리산로 311 달궁산장가든]]></STORE_ADDRESS_KOR>
+            <STORE_ADDRESS_ENG><![CDATA[전북 남원시 산내면 지리산로 311 달궁산장가든]]></STORE_ADDRESS_ENG>
+            <STORE_ADDRESS_CHN><![CDATA[전북 남원시 산내면 지리산로 311 달궁산장가든]]></STORE_ADDRESS_CHN>
+            <STORE_ADDRESS_JPN><![CDATA[전북 남원시 산내면 지리산로 311 달궁산장가든]]></STORE_ADDRESS_JPN>
+            <FILE_URL><![CDATA[commonfiles/tour/0a8601e1-0dfa-4e3d-87fa-af56a5db07f5.jpg]]></FILE_URL>
+            <STORE_LAT>0</STORE_LAT>
+            <STORE_LON>0</STORE_LON>
+            <STORE_MAP_URL><![CDATA[]]></STORE_MAP_URL>
+            <FILE_URL><![CDATA[commonfiles/tour/0a8601e1-0dfa-4e3d-87fa-af56a5db07f5.jpg]]></FILE_URL>
+        </STORE_INFO>
+      <STORE_INFO id="2c99818c8c85e8cc018c8bd6d5922d93">
+            <STORE_NAME_KOR><![CDATA[이조갈비]]></STORE_NAME_KOR>
+            <STORE_NAME_ENG><![CDATA[이조갈비]]></STORE_NAME_ENG>
+            <STORE_NAME_CHN><![CDATA[이조갈비]]></STORE_NAME_CHN>
+            <STORE_NAME_JPN><![CDATA[이조갈비]]></STORE_NAME_JPN>
+            <STORE_DESC_KOR><![CDATA[]]></STORE_DESC_KOR>
+            <STORE_DESC_ENG><![CDATA[]]></STORE_DESC_ENG>
+            <STORE_DESC_CHN><![CDATA[]]></STORE_DESC_CHN>
+            <STORE_DESC_JPN><![CDATA[]]></STORE_DESC_JPN>
+            <STORE_ADDRESS_KOR><![CDATA[전북 남원시 향단로 18]]></STORE_ADDRESS_KOR>
+            <STORE_ADDRESS_ENG><![CDATA[전북 남원시 향단로 18]]></STORE_ADDRESS_ENG>
+            <STORE_ADDRESS_CHN><![CDATA[전북 남원시 향단로 18]]></STORE_ADDRESS_CHN>
+            <STORE_ADDRESS_JPN><![CDATA[전북 남원시 향단로 18]]></STORE_ADDRESS_JPN>
+            <FILE_URL><![CDATA[commonfiles/tour/6ddefc56-cb0e-40a7-92fe-976be8798275.jpg]]></FILE_URL>
+            <STORE_LAT>0</STORE_LAT>
+            <STORE_LON>0</STORE_LON>
+            <STORE_MAP_URL><![CDATA[]]></STORE_MAP_URL>
+            <FILE_URL><![CDATA[commonfiles/tour/6ddefc56-cb0e-40a7-92fe-976be8798275.jpg]]></FILE_URL>
+        </STORE_INFO>
+      <STORE_INFO id="2c99818c8c85e8cc018c8bd5335c2d86">
+            <STORE_NAME_KOR><![CDATA[삼포가든]]></STORE_NAME_KOR>
+            <STORE_NAME_ENG><![CDATA[삼포가든]]></STORE_NAME_ENG>
+            <STORE_NAME_CHN><![CDATA[삼포가든]]></STORE_NAME_CHN>
+            <STORE_NAME_JPN><![CDATA[삼포가든]]></STORE_NAME_JPN>
+            <STORE_DESC_KOR><![CDATA[]]></STORE_DESC_KOR>
+            <STORE_DESC_ENG><![CDATA[]]></STORE_DESC_ENG>
+            <STORE_DESC_CHN><![CDATA[]]></STORE_DESC_CHN>
+            <STORE_DESC_JPN><![CDATA[]]></STORE_DESC_JPN>
+            <STORE_ADDRESS_KOR><![CDATA[전북 남원시 요천로 2264]]></STORE_ADDRESS_KOR>
+            <STORE_ADDRESS_ENG><![CDATA[전북 남원시 요천로 2264]]></STORE_ADDRESS_ENG>
+            <STORE_ADDRESS_CHN><![CDATA[전북 남원시 요천로 2264]]></STORE_ADDRESS_CHN>
+            <STORE_ADDRESS_JPN><![CDATA[전북 남원시 요천로 2264]]></STORE_ADDRESS_JPN>
+            <FILE_URL><![CDATA[commonfiles/tour/67d6c75f-daa5-4b3c-9adf-aa5c4343bf5a.jpg]]></FILE_URL>
+            <STORE_LAT>0</STORE_LAT>
+            <STORE_LON>0</STORE_LON>
+            <STORE_MAP_URL><![CDATA[]]></STORE_MAP_URL>
+            <FILE_URL><![CDATA[commonfiles/tour/67d6c75f-daa5-4b3c-9adf-aa5c4343bf5a.jpg]]></FILE_URL>
+        </STORE_INFO>
+      <STORE_INFO id="ff80808187a21de50187a25b5a3f0274">
+            <STORE_NAME_KOR><![CDATA[명문제과]]></STORE_NAME_KOR>
+            <STORE_NAME_ENG><![CDATA[명문제과]]></STORE_NAME_ENG>
+            <STORE_NAME_CHN><![CDATA[명문제과]]></STORE_NAME_CHN>
+            <STORE_NAME_JPN><![CDATA[명문제과]]></STORE_NAME_JPN>
+            <STORE_DESC_KOR><![CDATA[]]></STORE_DESC_KOR>
+            <STORE_DESC_ENG><![CDATA[]]></STORE_DESC_ENG>
+            <STORE_DESC_CHN><![CDATA[]]></STORE_DESC_CHN>
+            <STORE_DESC_JPN><![CDATA[]]></STORE_DESC_JPN>
+            <STORE_ADDRESS_KOR><![CDATA[전북 남원시 용성로 56-0]]></STORE_ADDRESS_KOR>
+            <STORE_ADDRESS_ENG><![CDATA[전북 남원시 용성로 56-0]]></STORE_ADDRESS_ENG>
+            <STORE_ADDRESS_CHN><![CDATA[전북 남원시 용성로 56-0]]></STORE_ADDRESS_CHN>
+            <STORE_ADDRESS_JPN><![CDATA[전북 남원시 용성로 56-0]]></STORE_ADDRESS_JPN>
+            <FILE_URL><![CDATA[commonfiles/tour/0b95aa5b-0689-40e7-93f6-a61f53442c17.jpg]]></FILE_URL>
+            <STORE_LAT>35.409042</STORE_LAT>
+            <STORE_LON>127.38247</STORE_LON>
+            <STORE_MAP_URL><![CDATA[]]></STORE_MAP_URL>
+            <FILE_URL><![CDATA[commonfiles/tour/0b95aa5b-0689-40e7-93f6-a61f53442c17.jpg]]></FILE_URL>
+        </STORE_INFO>
+      <STORE_INFO id="ff80808187a21de50187a25b5a4c0278">
+            <STORE_NAME_KOR><![CDATA[서남만찬]]></STORE_NAME_KOR>
+            <STORE_NAME_ENG><![CDATA[서남만찬]]></STORE_NAME_ENG>
+            <STORE_NAME_CHN><![CDATA[서남만찬]]></STORE_NAME_CHN>
+            <STORE_NAME_JPN><![CDATA[서남만찬]]></STORE_NAME_JPN>
+            <STORE_DESC_KOR><![CDATA[]]></STORE_DESC_KOR>
+            <STORE_DESC_ENG><![CDATA[]]></STORE_DESC_ENG>
+            <STORE_DESC_CHN><![CDATA[]]></STORE_DESC_CHN>
+            <STORE_DESC_JPN><![CDATA[]]></STORE_DESC_JPN>
+            <STORE_ADDRESS_KOR><![CDATA[전북 남원시 역재1길 9-0]]></STORE_ADDRESS_KOR>
+            <STORE_ADDRESS_ENG><![CDATA[전북 남원시 역재1길 9-0]]></STORE_ADDRESS_ENG>
+            <STORE_ADDRESS_CHN><![CDATA[전북 남원시 역재1길 9-0]]></STORE_ADDRESS_CHN>
+            <STORE_ADDRESS_JPN><![CDATA[전북 남원시 역재1길 9-0]]></STORE_ADDRESS_JPN>
+            <FILE_URL><![CDATA[commonfiles/tour/41c679df-30ad-481b-9d94-bb59f350a13f.jpg]]></FILE_URL>
+            <STORE_LAT>35.418293</STORE_LAT>
+            <STORE_LON>127.3981</STORE_LON>
+            <STORE_MAP_URL><![CDATA[]]></STORE_MAP_URL>
+            <FILE_URL><![CDATA[commonfiles/tour/41c679df-30ad-481b-9d94-bb59f350a13f.jpg]]></FILE_URL>
+        </STORE_INFO>
+      <STORE_INFO id="ff80808187a21de50187a25b5a53027c">
+            <STORE_NAME_KOR><![CDATA[새집추어탕]]></STORE_NAME_KOR>
+            <STORE_NAME_ENG><![CDATA[새집추어탕]]></STORE_NAME_ENG>
+            <STORE_NAME_CHN><![CDATA[새집추어탕]]></STORE_NAME_CHN>
+            <STORE_NAME_JPN><![CDATA[새집추어탕]]></STORE_NAME_JPN>
+            <STORE_DESC_KOR><![CDATA[]]></STORE_DESC_KOR>
+            <STORE_DESC_ENG><![CDATA[]]></STORE_DESC_ENG>
+            <STORE_DESC_CHN><![CDATA[]]></STORE_DESC_CHN>
+            <STORE_DESC_JPN><![CDATA[]]></STORE_DESC_JPN>
+            <STORE_ADDRESS_KOR><![CDATA[전북 남원시 요천로 1397-0]]></STORE_ADDRESS_KOR>
+            <STORE_ADDRESS_ENG><![CDATA[전북 남원시 요천로 1397-0]]></STORE_ADDRESS_ENG>
+            <STORE_ADDRESS_CHN><![CDATA[전북 남원시 요천로 1397-0]]></STORE_ADDRESS_CHN>
+            <STORE_ADDRESS_JPN><![CDATA[전북 남원시 요천로 1397-0]]></STORE_ADDRESS_JPN>
+            <FILE_URL><![CDATA[commonfiles/tour/eb185638-ef33-46f9-9b37-e1c55f9107d7.jpg]]></FILE_URL>
+            <STORE_LAT>35.400433</STORE_LAT>
+            <STORE_LON>127.37516</STORE_LON>
+            <STORE_MAP_URL><![CDATA[]]></STORE_MAP_URL>
+            <FILE_URL><![CDATA[commonfiles/tour/eb185638-ef33-46f9-9b37-e1c55f9107d7.jpg]]></FILE_URL>
+        </STORE_INFO>
+      <STORE_INFO id="ff80808187a21de50187a25b5a5a0280">
+            <STORE_NAME_KOR><![CDATA[현식당]]></STORE_NAME_KOR>
+            <STORE_NAME_ENG><![CDATA[현식당]]></STORE_NAME_ENG>
+            <STORE_NAME_CHN><![CDATA[현식당]]></STORE_NAME_CHN>
+            <STORE_NAME_JPN><![CDATA[현식당]]></STORE_NAME_JPN>
+            <STORE_DESC_KOR><![CDATA[]]></STORE_DESC_KOR>
+            <STORE_DESC_ENG><![CDATA[]]></STORE_DESC_ENG>
+            <STORE_DESC_CHN><![CDATA[]]></STORE_DESC_CHN>
+            <STORE_DESC_JPN><![CDATA[]]></STORE_DESC_JPN>
+            <STORE_ADDRESS_KOR><![CDATA[전북 남원시 의총로 8-0]]></STORE_ADDRESS_KOR>
+            <STORE_ADDRESS_ENG><![CDATA[전북 남원시 의총로 8-0]]></STORE_ADDRESS_ENG>
+            <STORE_ADDRESS_CHN><![CDATA[전북 남원시 의총로 8-0]]></STORE_ADDRESS_CHN>
+            <STORE_ADDRESS_JPN><![CDATA[전북 남원시 의총로 8-0]]></STORE_ADDRESS_JPN>
+            <FILE_URL><![CDATA[commonfiles/tour/f855ac47-a8db-4bbb-a1a8-0d96df6d95cf.png]]></FILE_URL>
+            <STORE_LAT>35.40135</STORE_LAT>
+            <STORE_LON>127.377075</STORE_LON>
+            <STORE_MAP_URL><![CDATA[]]></STORE_MAP_URL>
+            <FILE_URL><![CDATA[commonfiles/tour/9401b0fd-a3b6-42c6-b3a9-afd7bd7e9dd8.png]]></FILE_URL>
+        </STORE_INFO>
+</STORE_LIST>
+</KIOSK>

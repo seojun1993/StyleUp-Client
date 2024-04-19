@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140.609" height="140.609" viewBox="0 0 140.609 140.609">
+  <defs>
+    <filter id="타원_142" x="0" y="0" width="140.609" height="140.609" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#414141" flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="타원_142-2" x="0" y="0" width="140.609" height="140.609" filterUnits="userSpaceOnUse">
+      <feOffset dy="-2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.25" result="blur-2"/>
+      <feFlood flood-color="#b5b5b5" flood-opacity="0.569" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_3432" data-name="그룹 3432" transform="translate(8.661 4.428)">
+    <g data-type="innerShadowGroup">
+      <g transform="matrix(1, 0, 0, 1, -8.66, -4.43)" filter="url(#타원_142)">
+        <circle id="타원_142-3" data-name="타원 142" cx="61.305" cy="61.305" r="61.305" transform="translate(9 4)" fill="#f0f0f0"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -8.66, -4.43)" filter="url(#타원_142-2)">
+        <circle id="타원_142-4" data-name="타원 142" cx="61.305" cy="61.305" r="61.305" transform="translate(9 4)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="그룹_13061" data-name="그룹 13061" transform="translate(42.993 36.191)">
+      <path id="패스_2170" data-name="패스 2170" d="M13.208,9a4.116,4.116,0,1,0,4.117,4.116A4.116,4.116,0,0,0,13.208,9m0-2.854a6.969,6.969,0,1,1-6.969,6.969,6.97,6.97,0,0,1,6.969-6.969" transform="translate(5.442 5.304)" stroke="#000" stroke-width="2"/>
+      <path id="패스_2171" data-name="패스 2171" d="M18.657,49.151l-.007.013-1.834-3.04c-1.212-2.01-2.676-4.151-4.225-6.42C8.037,33.034,2.874,25.475,2.874,19.316A16.085,16.085,0,0,1,18.652,2.976a16.085,16.085,0,0,1,15.774,16.34c0,6.157-5.163,13.726-9.717,20.387-.862,1.26-5.507,7.7-6.286,8.885l1.664,2.792c.966-1.5,5.835-8.3,6.971-9.958,4.8-7.032,10.245-15,10.245-22.107A19.54,19.54,0,0,0,31.839,5.657q-.316-.33-.646-.646a18.2,18.2,0,0,0-25.73.646A19.54,19.54,0,0,0,0,19.316c0,7.1,5.442,15.075,10.245,22.107,1.525,2.232,2.965,4.341,4.134,6.279l4.043,6.431,1.7-2.82Z" transform="translate(0 0)" stroke="#000" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

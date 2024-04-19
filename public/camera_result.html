@@ -1,0 +1,53 @@
+<div class="container">
+    <div class="title">
+        <h2>가상한복 피팅</h2>
+        <span>배경 및 한복선택</span>
+    </div>
+    <div class="content full-w">
+        <div class="camera_result_wrap">
+            <div class="content_box">
+                <div class="left">
+                    <img id="resultBg" src="./images/camera/bg/1.jpg" alt="배경화면">
+                    <div class="result_box">
+                        <div class="hand"><img src="./images/camera/hand.svg" alt="IMG"></div>
+                        <div class="caption">
+                            <p>완성한 캐릭터를 화면 밖으로 플리킹 해주세요</p>
+                        </div>
+                        <div class="result_img">
+                            <img id="resultImg" src="" alt="IMG">
+                            <canvas id="QRcanvas"></canvas>
+                        </div>
+                    </div>
+                    <button id="btnPicture" class="btn_url r_item" data-link="camera" data-sign="N">
+                        <img src="./images/common/recamera.svg" alt="촬영하러 가기">
+                        <img src="./images/common/recamera_r.svg" alt="촬영하러 가기">
+                        <span>재촬영</span>
+                    </button>
+                </div>
+                <div class="right">
+                    <div class="flick_box">
+                        <h3 class="sub_title">
+                            <img src="./images/common/flick.svg" alt="알림">
+                            <span>사진 플리킹하기</span>
+                        </h3>
+                        <div class="sub_desc">
+                            <p>사진 이미지를 미디어월로 날려주세요</p>
+                        </div>
+                    </div>
+                    <div class="save_box">
+                        <h3 class="sub_title">
+                            <img src="./images/common/save.svg" alt="알림">
+                            <span>사진 저장하기</span>
+                        </h3>
+                        <div class="sub_desc">
+                            <div class="qr_box">
+                                <div id="qrCode"></div>
+                                <p>QR 코드를 스캔하여<br/>소중한 추억을<br/>휴대폰에 간직하세요</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

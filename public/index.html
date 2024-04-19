@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="author" content="eltov" />
+    <meta name="description" content="내나라 여행" />
+    <meta name="keywords" content="내나라 여행" />
+    <title>내나라 여행</title>
+    <link rel="stylesheet" href="./include/css/lib/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./include/css/reset.css" />
+    <link rel="stylesheet" href="./include/css/style.css" />
+    <link rel="stylesheet" href="./include/css/common.css" />
+    <link rel="stylesheet" href="./include/css/page/main.css" />
+    <link rel="stylesheet" href="./include/css/page/user_choice.css" />
+    <link rel="stylesheet" href="./include/css/page/hanbok_guide.css" />
+    <link rel="stylesheet" href="./include/css/page/tourlist.css" />
+    <link rel="stylesheet" href="./include/css/page/information.css" />
+    <link rel="stylesheet" href="./include/css/page/store.css" />
+    <link rel="stylesheet" href="./include/css/page/camera.css" />
+    <link rel="stylesheet" href="./include/css/page/camera_result.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.1/socket.io.js"></script>
+    <script src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=da3yv941cz"></script>
+    <script type="module" src="./include/js/lib/pinch-zoom.js"></script>
+    <script src="./include/js/lib/jquery-3.6.0.min.js"></script>
+    <script src="./include/js/lib/swiper-bundle.min.js"></script>
+    <script src="./include/js/lib/qrcode.min.js"></script>
+    <script src="./include/js/lib/jquery.xml2json.js"></script>
+    <script src="./include/js/xml.js"></script>
+</head>
+
+<body class="" oncontextmenu="return false">
+    <input type="hidden" id="voice_volume" value="0.5"> <!-- COMMON / VOICE / SIGN -->
+    <input type="hidden" id="voice_speed" value="1"> <!-- COMMON / VOICE / SIGN -->
+    <input type="hidden" id="reAudio" value="">
+
+    <audio id="noteAudio" src="./sound/note.wav" controls preload='auto'></audio>
+    <audio id="audioPlayer" src="" autoplay controls style="width:1px; height:1px; position: absolute; margin:-1px; background:none; border:none; z-index: -1;"></audio>
+
+    <input type="hidden" id="nowPage" value="">
+    <div id="wrap">
+        <div id="loadingBar" class="contents_loading">
+            <div class="contents">
+                <div class="progress">
+                    <div id="progressBar" class="progress_bar"></div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div id="div_pop">
+                <div class="popup_box">
+                    <div class="popup_header">
+                        <h2 id="popupTitle">두레식당</h2>
+                        <span>
+                            <img src="./images/common/popup_location.svg" alt="location">
+                            <span id="popUpAddress">전북 남원시 광한북로 29</span>
+                        </span>
+                    </div>
+                    <div id="popupResult">
+                        <div id="Map">
+
+                        </div>
+                    </div>
+                    <div class="close_box">
+                        <button id="closeBtn" class="btn_shadow" onclick="closePop()">
+                            <span>닫기</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="pop_overlay" onclick="closePop()"></div>
+            </div>
+            <div id="div_main_container"></div>
+        </section>
+
+        <footer id="footer" class="stagger-item">
+            <h1 class="ir_su">컨트롤패드</h1>
+            <div class="bottom_control_wrap">
+                <div class="footer_all">
+                    <div class="logo_inner">
+                        <img src="./images/footer/LOGO.SVG" alt="PLAY NAMWON">
+                    </div>
+                    <div class="control_inner">
+                        <h3>홈</h3>
+                        <div class="btn_wrap">
+                            <a id="btnHome" class="btn btn_tab control btn_tts" data-tts="SPEAK32_" href="#">
+                                <img src="./images/footer/IC_HOME_WHITE.svg" alt="홈으로" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="control_inner">
+                        <h3>고대비</h3>
+                        <div class="btn_wrap">
+                            <button id="reverseBtn" class="btn btn_tab onoff btn_tts" data-tts="SPEAK33_" data-text="고대비">
+                                <span>OFF</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="control_inner">
+                        <h3>화면크기</h3>
+                        <div class="btn_wrap">
+                            <button class="btn minus btn_tab control btn_tts" onclick="openModal('view_pop_01'); fn_setfontSizeByFlag(false);" data-tts="SPEAK35_" data-text="축소">
+                                <img src="./images/footer/ICON_MINUS.svg" alt="" />
+                            </button>
+                            <button class="btn plus btn_tab control btn_tts" onclick="openModal('view_pop_01'); fn_setfontSizeByFlag(true);" data-tts="SPEAK34_" data-text="확대">
+                                <img src="./images/footer/ICON_PLUS.svg" alt="" />
+                            </button>
+                        </div>
+                        <!-- control_pop -->
+                        <div class="control_pop view_pop_01 voice_pop">
+                            <div class="font_wrap">
+                                <h3>화면크기</h3>
+                                <div class="inner">
+                                    <!-- 속도 1~3 class voicespeed_1x ~ voicespeed_3x -->
+                                    <ul class="fontsize_1x" id="ul_fontSize">
+                                        <li class="active" data-font="62.5">x1</li>
+                                        <li data-font="68.75">x1.1</li>
+                                        <li data-font="75">x1.2</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //control_pop -->
+                    </div>
+                    <div class="control_inner">
+                        <h3>음성속도</h3>
+                        <div class="btn_wrap">
+                            <button class="btn minus btn_tab btn_tts control" onclick="openModal('view_pop_02'); fn_setAudioSpeedByFlag(false);" data-tts="SPEAK42_" data-text="음성속도 느리게"> <img src="./images/footer/ICON_MINUS.svg" alt="" />
+                            </button>
+                            <button class="btn plus btn_tab btn_tts control" onclick="openModal('view_pop_02'); fn_setAudioSpeedByFlag(true);" data-tts="SPEAK41_" data-text="음성속도 빠르게">
+                                <img src="./images/footer/ICON_PLUS.svg" alt="" />
+                            </button>
+                        </div>
+                        <!-- control_pop -->
+                        <div class="control_pop view_pop_02 voice_pop">
+                            <div class="speed_wrap">
+                                <h3>음성속도</h3>
+                                <div class="inner">
+                                    <!-- 속도 1~3 class voicespeed_1x ~ voicespeed_3x -->
+                                    <ul class="voicespeed_1x" id="ul_audiospeed">
+                                        <li data-speed="1" class="active">x1</li>
+                                        <li data-speed="1.5">x1.5</li>
+                                        <li data-speed="2">x2</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //control_pop -->
+                    </div>
+                    <div class="control_inner">
+                        <h3>음량조절</h3>
+                        <div class="btn_wrap">
+                            <button class="btn minus btn_tab btn_tts control" onclick="openModal('view_pop_03'); fn_setVolumeByFlag(false);" data-tts="SPEAK42_" data-text="음량 줄임">
+                                <img src="./images/footer/ICON_MINUS.svg" alt="" />
+                            </button>
+                            <button class="btn plus btn_tab btn_tts control" onclick="openModal('view_pop_03'); fn_setVolumeByFlag(true);" data-tts="SPEAK41_" data-text="음량 올림">
+                                <img src="./images/footer/ICON_PLUS.svg" alt="" />
+                            </button>
+                        </div>
+                        <!-- control_pop -->
+                        <div class="control_pop view_pop_03 voice_pop">
+                            <div class="volumn_wrap">
+                                <h3>음량조절</h3>
+                                <div class="inner">
+                                    <span>-</span>
+                                    <!-- 음량단계 1~10 class volumn_01 ~ volumn_10 -->
+                                    <ul id="ul_volume">
+                                        <li data-volume="1">1</li>
+                                        <li data-volume="2">2</li>
+                                        <li data-volume="3">3</li>
+                                        <li data-volume="4">4</li>
+                                        <li data-volume="5" class="active">5</li>
+                                        <li data-volume="6">6</li>
+                                        <li data-volume="7">7</li>
+                                        <li data-volume="8">8</li>
+                                        <li data-volume="9">9</li>
+                                        <li data-volume="10">10</li>
+                                    </ul>
+                                    <span>+</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="control_inner footer_left_all">
+                        <h3>수어안내</h3>
+                        <div class="btn_wrap">
+                            <button id="signBtn" class="btn onoff btn_signcharacter" data-text="수어안내">
+                                <span>OFF</span>
+                            </button>
+                        </div>
+                        <div class="control_pop view_pop_04 sign_pop">
+                            <div class="sign_wrap">
+                                <div class="inner">
+                                    <p>해당 페이지에서는<br/>수어를 지원하지 않습니다</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <div class="sign_character">
+            <div id="canvasContainer" class="inner">
+                <canvas id="index_signcanvas"></canvas>
+            </div>
+        </div>
+
+    <script defer type="module">
+        import WebGLPlayer from "./include/js/lib/WebGLPlayer.js";
+        window.webGLPlayer = new WebGLPlayer(document.getElementById("index_signcanvas"), 
+        {alpha: 0 }, "./include/js/lib");
+        webGLPlayer.playerInit('Eve','Eve_naenara', (callback) => {console.log(callback)})
+    </script>
+    </div>
+
+    <script src="./include/js/common.js"></script>
+    <script src="./include/js/page/index.js"></script>
+</body>
+
+</html>

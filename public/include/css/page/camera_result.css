@@ -1,0 +1,47 @@
+#QRcanvas{
+    width:3840px;
+    height:2160px;
+    position: fixed; width: 250px; height: 350px;opacity: 0; z-index: -1; left: -9999px; top: -9999px; text-indent: -9999px;
+}
+
+.camera_result_wrap{padding: 200px 160px 0;}
+.camera_result_wrap .content_box{width: 100%; height: 1200px; display:flex; align-items: flex-start; justify-content: space-between; gap: 180px;}
+.camera_result_wrap .content_box .left{position: relative; max-width:68%; width: 2100px; max-height: 1200px; border-radius: 25px;}
+.camera_result_wrap .content_box .left > img{max-height: 1200px; width: 100%; object-fit: cover;}
+.camera_result_wrap .content_box .left #btnPicture{width: 250px; height: 250px; position: absolute; bottom: 60px; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; gap:30px; justify-content: center; align-items: center; background: var(--main-color); border-radius: 134px;}
+.camera_result_wrap .content_box .left #btnPicture::before{content: ''; clear: both; display: block; position: absolute; width: calc(100% + 35px); height: calc(100% + 35px); background: #5356E5; z-index: -1; border-radius: 50%; opacity: 0.5;}
+.camera_result_wrap .content_box .left #btnPicture::after{content: ''; clear: both; display: block; position: absolute; width: calc(100% + 70px); height: calc(100% + 70px); background: rgba(255, 255, 255, 0.4); z-index: -2; border-radius: 50%;}
+.camera_result_wrap .content_box .left #btnPicture img{width: auto;}
+.camera_result_wrap .content_box .left #btnPicture span{font-size: 5.6rem;}
+.camera_result_wrap .content_box .right{width: calc(100% - 2280px); height: 100%;}
+
+.result_box{position: absolute; width: 100%; height: 100%; top: 0; left: 0; right: 0; background: url('../../../images/camera/flick.svg') no-repeat top center/900px; overflow: hidden;}
+.camera_result_wrap .hand{position: absolute; left:50%; bottom:20%; z-index: 1; animation: handAnimation infinite 1.5s; pointer-events: none;}
+.camera_result_wrap .caption{position: absolute; top: 300px; left: 50%; transform: translateX(-50%); width: 115rem; height: 11rem; display: flex; justify-content: center; align-items: center; background: rgba(0, 0, 0, .72); border-radius: 55px; z-index: 10; pointer-events: none;}
+.camera_result_wrap .caption p{font-size: 5.6rem;}
+
+.result_img{position: absolute; bottom:70px; left: 50%; transform: translateX(-50%);}
+.result_img img{position: relative; width:auto; max-height:700px;}
+
+.right > div .sub_desc{padding-top: 60px;}
+.right > div .sub_desc p{font-size: 5.6rem; font-weight: 300; color: #AAAAAA;}
+.right > div + div{margin-top: 180px;}
+.qr_box{display: flex; align-items: center; gap:90px;}
+#qrCode{display:flex; justify-content: center; align-items: center; width: 430px; height: 430px; padding: 40px; background: #fff; border-radius: 17px;}
+.qr_box p{display: block; width: calc(100% - 520px); line-height: 9rem;}
+
+.reverse .camera_result_wrap .content_box .left #btnPicture{background: #000;}
+.reverse .camera_result_wrap .content_box .left #btnPicture::before{background: #000; opacity: 1;}
+.reverse .camera_result_wrap .content_box .left #btnPicture::after{background: rgba(255, 255, 255, 0.4);}
+.reverse #captureButton > div{background: #000; box-shadow: 0 0 30px #000;}
+.reverse #captureButton > div::before{background: rgba(0, 0, 0, .4); }
+.reverse #captureButton > div::after{background: rgba(255, 255, 255, 0.4);}
+.reverse .camera_result_wrap .content_box .left #btnPicture span{color: #f4e402;}
+.reverse #captureButton > div span{color: #f4e402;}
+.reverse .result_box{outline: 4px solid #f4e402;}
+.reverse .right > div .sub_desc p{color: #fff;}
+
+@keyframes handAnimation {
+    from{bottom: 20%;}
+    to { bottom: 30%;}
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="104" height="104" viewBox="0 0 104 104">
+  <g id="ico_notice" transform="translate(-56.468 -863)">
+    <g id="패스_27899" data-name="패스 27899" transform="translate(56.468 863)" fill="none">
+      <path d="M52,0A52,52,0,1,1,0,52,52,52,0,0,1,52,0Z" stroke="none"/>
+      <path d="M 52 8 C 27.73831176757812 8 8 27.73831176757812 8 52 C 8 76.26168823242188 27.73831176757812 96 52 96 C 76.26168823242188 96 96 76.26168823242188 96 52 C 96 27.73831176757812 76.26168823242188 8 52 8 M 52 0 C 80.71881103515625 0 104 23.28118896484375 104 52 C 104 80.71881103515625 80.71881103515625 104 52 104 C 23.28118896484375 104 0 80.71881103515625 0 52 C 0 23.28118896484375 23.28118896484375 0 52 0 Z" stroke="none" fill="#f4e402"/>
+    </g>
+    <line id="선_61" data-name="선 61" y2="27.338" transform="translate(109.007 892.967)" fill="none" stroke="#f4e402" stroke-linecap="round" stroke-width="8"/>
+    <g id="타원_44" data-name="타원 44" transform="translate(102.977 932.366)" fill="#f4e402" stroke="#f4e402" stroke-width="5">
+      <circle cx="6.031" cy="6.031" r="6.031" stroke="none"/>
+      <circle cx="6.031" cy="6.031" r="3.531" fill="none"/>
+    </g>
+  </g>
+</svg>

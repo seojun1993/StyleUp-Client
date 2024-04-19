@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="122.01" height="122.01" viewBox="0 0 122.01 122.01">
+  <g id="ico_hanbok_select" transform="translate(-1957 -1707)">
+    <circle id="타원_185" data-name="타원 185" cx="61.005" cy="61.005" r="61.005" transform="translate(1957 1707)" fill="#f4e402"/>
+    <g id="ico_ar_category_hanbok" transform="translate(1987 1747)">
+      <g id="그룹_627" data-name="그룹 627" transform="translate(-2 -6)">
+        <path id="패스_1390" data-name="패스 1390" d="M65.724,114.17H10.853a5.353,5.353,0,0,1-2.187-10.239L32.917,93.076a13.149,13.149,0,0,1,10.742,0l24.251,10.855a5.353,5.353,0,0,1-2.187,10.239Z" transform="translate(-5.5 -71.318)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path id="패스_1391" data-name="패스 1391" d="M113.29,12.585a7.085,7.085,0,1,1,7.085,7.085V26.11" transform="translate(-87.586 -5.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+    </g>
+  </g>
+</svg>

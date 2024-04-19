@@ -1,0 +1,20 @@
+.hanbok_guide_wrap{padding: 200px 160px 0;}
+.hanbok_guide_wrap .content_box{width: 100%; height: 1330px; display:flex; align-items: flex-start; justify-content: space-between; gap: 100px;}
+.hanbok_guide_wrap .content_box .left{position: relative; max-width:68%; width: 2365px;}
+.hanbok_guide_wrap .content_box .left > img{max-height: 1330px;}
+.hanbok_guide_wrap .content_box .left #btnPicture{width: 780px; height: 150px; position: absolute; bottom: 320px; left: 50%; transform: translateX(-50%); display: flex; justify-content: center; align-items: center; background: #5356E5; border-radius: 134px;}
+.hanbok_guide_wrap .content_box .left #btnPicture img{width: auto; margin-right: 50px;}
+.hanbok_guide_wrap .content_box .left #btnPicture span{font-size: 6rem;}
+.hanbok_guide_wrap .content_box .right{width: calc(100% - 2465px); height: 100%;}
+.hanbok_guide_wrap .content_box .right h3::before{content: ''; clear: both; display:block; position: absolute; bottom: 0px; left: calc(100% - 320px); width: 510px; height: 420px; background: url('../../../images/hanbok_guide/figure.png') no-repeat right center/cover;}
+.hanbok_guide_wrap .content_box .right ol{padding-top: 6.5rem; counter-reset: item; height: calc(100% - 175px); overflow-y: auto;}
+.hanbok_guide_wrap .content_box .right ol li{position: relative; display: block; font-size: 5.6rem; color: #AAAAAA; padding:0 7.5rem;}
+.hanbok_guide_wrap .content_box .right ol li::before{position: absolute; left:0; top:0; display: inline-block; width: 45px; content: counter(item) ". "; counter-increment: item; }
+.hanbok_guide_wrap .content_box .right ol li+li{margin-top: 70px;}
+.hanbok_guide_wrap .content_box .right ol li p{font-weight: 300;}
+
+.sign_on .hanbok_guide_wrap .right{display:none;}
+.reverse .hanbok_guide_wrap .content_box .right ol li{color:#fff;}
+
+.reverse .hanbok_guide_wrap .content_box .left{outline: 4px solid #F4E402;}
+.reverse .hanbok_guide_wrap .content_box .left #btnPicture{background:#000; outline:4px solid #F4E402; color: #F4E402;}

@@ -1,0 +1,32 @@
+.store_wrap{padding: 200px 300px 0;}
+.store_wrap .content_box{}
+
+#storeSwiper{}
+#storeSwiper .swiper-slide{}
+#storeSwiper .swiper-slide ul{display:flex; justify-content: flex-start; align-items: center; flex-wrap: wrap; row-gap: 90px; column-gap: 65px;}
+#storeSwiper .swiper-slide ul li{width: calc(33.333% - 45px); padding: 30px; background: #fff; border-radius: 18px;}
+#storeSwiper .swiper-slide ul li .item{display: flex; align-items: center; justify-content: space-between; }
+#storeSwiper .swiper-slide ul li .item .img_box{max-width: 380px; max-height: 340px;}
+#storeSwiper .swiper-slide ul li .item .img_box img{width: 380px; height: 340px;}
+#storeSwiper .swiper-slide ul li .item .txt_box{width: calc(100% - 380px); text-align: center; padding-left: 30px;}
+#storeSwiper .swiper-slide ul li .item .txt_box .txt{width:100%; display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 6.5rem; font-weight: 500; color: #000000;}
+#storeSwiper .swiper-slide ul li .item .txt_box .location{margin-top: 65px;}
+#storeSwiper .swiper-slide ul li .item .txt_box .location img{width: auto;}
+
+.store_paging{position:relative; height: 105px; display: flex; align-items: center; justify-content: center; margin-top: 70px;}
+.store-button-prev,
+.store-button-next,
+.store-pagination{position: unset;}
+
+.store-button-prev,
+.store-button-next{width:200px; height:105px; background: #4B4C56; color: #fff; border-radius: 66px; margin: 0;}
+
+.store-pagination{width: auto !important; padding: 0 60px;}
+.store-pagination .swiper-pagination-bullet{width:20px; height:20px; border-radius: 50%; background: #757575; margin: 0 10px !important;}
+.store-pagination .swiper-pagination-bullet-active{background:#fff;}
+
+.sign_on #storeSwiper .swiper-slide ul li{width: calc(50% - 32.5px);}
+
+.reverse .store-button-prev, .reverse .store-button-next{background:#000; color: #F4E402; outline: 4px solid #F4E402;}
+.reverse .store-pagination .swiper-pagination-bullet-active{background: #F4E402 !important;}
+.reverse .store-pagination .swiper-pagination-bullet{background: #fff;}

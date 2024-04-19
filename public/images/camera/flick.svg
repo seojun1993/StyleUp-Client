@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="926.27" height="291.45" viewBox="0 0 926.27 291.45">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.456" stop-color="#fff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.729"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="사각형_963" data-name="사각형 963" width="171.862" height="177.479" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_24668" data-name="그룹 24668" transform="translate(-838.405 -505.417)">
+    <line id="선_364" data-name="선 364" x1="258" y2="275.5" transform="translate(839.5 506.5)" fill="none" stroke="#fff" stroke-width="3"/>
+    <line id="선_365" data-name="선 365" x2="287" y2="275" transform="translate(1475 506.5)" fill="none" stroke="#fff" stroke-width="3"/>
+    <path id="img_ar_fit_gradation_top" d="M903.408.589h380.357l287.909,277.344h-925.8Z" transform="translate(193 506.5)" fill="url(#linear-gradient)"/>
+    <g id="그룹_1384" data-name="그룹 1384" transform="translate(1158.166 551.132)">
+      <g id="그룹_1382" data-name="그룹 1382" transform="translate(0 0)">
+        <g id="그룹_1378" data-name="그룹 1378" transform="translate(0 131.654) rotate(-50)">
+          <g id="그룹_1377" data-name="그룹 1377" transform="translate(0 0)" clip-path="url(#clip-path)">
+            <g id="그룹_1376" data-name="그룹 1376">
+              <g id="그룹_1375" data-name="그룹 1375" clip-path="url(#clip-path)">
+                <g id="그룹_1374" data-name="그룹 1374" opacity="0.5">
+                  <g id="그룹_1373" data-name="그룹 1373">
+                    <g id="그룹_1372" data-name="그룹 1372" clip-path="url(#clip-path)">
+                      <g id="그룹_1371" data-name="그룹 1371" style="mix-blend-mode: screen;isolation: isolate">
+                        <g id="그룹_1370" data-name="그룹 1370">
+                          <g id="그룹_1369" data-name="그룹 1369" clip-path="url(#clip-path)">
+                            <path id="패스_1101" data-name="패스 1101" d="M19.524,176.362l97.221-96.808c3.038-2.9,9.46-4.209,12.362-1.181.04.04.485.515.485.515L142.4,93.5l1.558-8.671,5.073-28.627c1.733-9.537,3.3-19.112,5.172-28.616l2.715-14.218-14.608,1.019c-9.683.7-19.381,1.141-29.073,1.727L84.163,17.762c-2.5.142-7.914.409-7.914.409L86.772,30.184l.253.3A9.617,9.617,0,0,1,85.69,44.164c-6.209,5.22-78.124,56.739-84.632,61.6a.667.667,0,0,1-.935-.1.639.639,0,0,1,.1-.858L78.531,36.028l-.1,1.449L53.568,9.269a1.1,1.1,0,0,1,.095-1.559,1.139,1.139,0,0,1,.663-.274C93.077,4.943,131.818,2.294,170.589,0a1.19,1.19,0,0,1,1.269,1.115,1.368,1.368,0,0,1-.014.314L149.069,115.469a.966.966,0,0,1-1.132.763.979.979,0,0,1-.535-.314L122.65,87.609l1.245.09L20.363,177.319a.628.628,0,0,1-.895-.059c-.222-.253.057-.9.057-.9" transform="translate(0 0)" fill="#fff"/>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

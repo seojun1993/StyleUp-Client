@@ -1,0 +1,20 @@
+.user_choice_wrap{
+    padding-top: 280px;
+}
+
+
+.user_choice_wrap .content_box{display: flex; justify-content: center; align-items: center; gap: 450px; transition:gap 1s;}
+.user_choice_wrap .content_box > div{}
+.user_choice_wrap .content_box .left{position: relative;}
+.user_choice_wrap .content_box .left::after{content: ''; clear: both; display: block; position: absolute; top: 50%; left: calc(100% + 230px); transform: translateY(calc(-50% - 40px)); width: 1px; height: 400px; background: #707070; transition:left 1s;}
+.user_choice_wrap .content_box > div ul{display: flex; align-items: center; gap: 105px; transition:gap 1s;}
+.user_choice_wrap .content_box > div ul li{}
+.user_choice_wrap .content_box > div ul li a{display: block; width: 543px; height: 543px; border-radius: 50%;}
+.user_choice_wrap .content_box > div ul li a img{width: auto;}
+.user_choice_wrap .content_box > div span{display: block; text-align: center; font-size: 6.5rem; font-weight: 300;}
+
+.reverse .user_choice_wrap .content_box .left::after{background: #fff;}
+.reverse .user_choice_wrap .content_box > div ul li a{outline: 4px solid #F4E402;}
+.sign_on .user_choice_wrap .content_box{gap:100px;}
+.sign_on .user_choice_wrap .content_box > div ul{gap:50px;}
+.sign_on .user_choice_wrap .content_box .left::after{left:calc(100% + 50px)}
